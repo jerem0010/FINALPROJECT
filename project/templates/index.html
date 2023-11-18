@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+
+{% block main %}
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="static\bulle.jpg" class="d-block w-100" alt="bulle">
+        <div class="carousel-caption d-none d-md-block carou-text">
+          <h1>Bulle</h1>
+          <p><h3>2 courts couverts</h3></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="static\balle.jpg" class="d-block w-100" alt="balle">
+        <div class="carousel-caption d-none d-md-block carou-text">
+          <h1>Terrains</h1>
+          <p><h3>Une surface dur et neuve</h3></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="static\chalet.jpg" class="d-block w-100" alt="chalet">
+        <div class="carousel-caption d-none d-md-block carou-text">
+          <h1>Chalet</h1>
+          <p><h3>Un chalet acceuillant</h3></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+{% endblock %}

@@ -1,0 +1,83 @@
+header {
+
+}
+.logo-titre{
+  float:left;
+}
+
+.titre {
+  position:absolute;
+  display:inline-block;
+  left: 40%;
+}
+
+main {
+  height: auto;
+  margin-top: 5cm;
+  background-size:auto;
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+
+}
+
+h1 {
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+footer {
+  background-color: dimgrey;
+  color: azure;
+  padding: 50px ;
+  position: static;
+  bottom: 0%;
+}
+
+
+
+
+.navbar-content {
+  color:yellow;
+
+  background-size: auto;
+  height: 130px;
+}
+
+
+.logo-usi {
+  width: 2cm;
+  height: 3cm;
+  border-radius: 10%;
+}
+
+.menu {
+  color:rgb(177, 23, 18);
+  font-family:'Times New Roman', Times, serif;
+}
+
+.carou-text {
+  padding-bottom: 50% ;
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+
+}
+
+#cours3 {
+
+  height: 800px;
+
+}
+
+#text3 {
+  float: right;
+}
+
+#btn1 {
+  margin-bottom: 1.5cm;
+}
+
+
+
+
+
+
